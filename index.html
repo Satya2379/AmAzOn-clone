@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone - Apple Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo">
+        </div>
+        <div class="header__search">
+            <input type="text" class="header__searchInput" placeholder="Search Amazon">
+            <button class="header__searchIcon">🔍</button>
+        </div>
+        <div class="header__nav">
+            <div class="header__option">
+                <span>Hello, Sign in</span>
+                <span>Account & Lists</span>
+            </div>
+            <div class="header__option">
+                <span>Returns</span>
+                <span>& Orders</span>
+            </div>
+            <div class="header__optionBasket">
+                🛒 <span id="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="home">
+        <div class="home__container">
+            <img class="home__image" src="https://m.media-amazon.com/images/G/31/img20/Wireless/WLA/January23/GW/D85233221_WLA_January2023_Tallhero_3000X1200._CB619846473_.jpg" alt="Amazon Banner">
+
+            <div class="home__row">
+                <div class="product" data-product="MacBook">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp13touch-silver-gallery1-202011?wid=400&hei=307&fmt=jpeg&qlt=95&.v=1603406905000" alt="MacBook Pro">
+                    <div class="product__info">
+                        <p>Apple MacBook Pro</p>
+                        <p class="product__price">$1299.99</p>
+                    </div>
+                    <button>Add to Basket</button>
+                </div>
+
+                <div class="product" data-product="iPad">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-air-select-202209?wid=400&hei=307&fmt=jpeg&qlt=95&.v=1664402825891" alt="iPad Air">
+                    <div class="product__info">
+                        <p>Apple iPad Air</p>
+                        <p class="product__price">$599.00</p>
+                    </div>
+                    <button>Add to Basket</button>
+                </div>
+
+                <div class="product" data-product="iPhone">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-select-2021?wid=400&hei=307&fmt=jpeg&qlt=95&.v=1629842708000" alt="iPhone 13">
+                    <div class="product__info">
+                        <p>Apple iPhone 13</p>
+                        <p class="product__price">$799.00</p>
+                    </div>
+                    <button>Add to Basket</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__info">
+            <p>© 2024 Amazon Clone</p>
+            <p>Terms & Conditions | Privacy Policy</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
