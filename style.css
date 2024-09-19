@@ -1,4 +1,4 @@
-/* Global Styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +6,7 @@ body {
     background-color: #f3f3f3;
 }
 
-/* Header */
+
 .header {
     display: flex;
     align-items: center;
@@ -56,7 +56,7 @@ body {
     cursor: pointer;
 }
 
-/* Home Section */
+
 .home__container {
     max-width: 1200px;
     margin: 0 auto;
@@ -105,7 +105,7 @@ body {
     cursor: pointer;
 }
 
-/* Footer */
+
 .footer {
     background-color: #232f3e;
     padding: 20px;
